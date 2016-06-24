@@ -1,0 +1,18 @@
+<html>
+
+<body>
+<span id="result"></span>
+</body>
+
+<script src="bower_components/requirejs/require.js"></script>
+<script>
+	require(["bower_components/when/when"], function(){
+		var when = require("bower_components/when/when");
+		when(function(){console.log( 2+2);})
+		.delay(1000)
+		.then(function(promise){promise();});
+	});
+//
+</script>
+
+</html>

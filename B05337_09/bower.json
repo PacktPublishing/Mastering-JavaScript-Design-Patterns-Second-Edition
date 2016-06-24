@@ -1,0 +1,22 @@
+{
+  "name": "Chapter 8",
+  "version": "0.0.0",
+  "homepage": "https://github.com/stimms/JavaScriptPatterns",
+  "authors": [
+    "Simon Timms <stimms@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "when": "~3.5.0",
+    "require": "*",
+    "requirejs": "~2.1.15"
+  }
+}

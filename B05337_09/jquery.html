@@ -1,0 +1,35 @@
+<html>
+<body>
+
+</body>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+
+  //yeller jquery plugin
+  $.fn.yeller = function(){
+    this.each(function(_, item){
+      $(item).val($(item).val().toUpperCase());
+    });
+  };
+
+  (function($){
+    $.fn.yeller2 = function(){
+      this.each(function(_, item){
+        $(item).val($(item).val().toUpperCase());
+      });
+    };
+  })(jQuery);
+
+  (function($){
+    $.fn.yeller2 = function(){
+      this.each(function(_, item){
+        $(item).val($(item).val().toUpperCase());
+      });
+    };
+  })(jQuery);
+
+  $(function(){$("input").yeller();});
+</script>
+
+<input type="text" value="look out!"/>
+</html>
